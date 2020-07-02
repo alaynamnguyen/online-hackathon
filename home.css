@@ -1,0 +1,35 @@
+body {
+
+ font-family: 'Cardo', serif;
+
+ h1, h2, h3, h4, h5, h6 {
+ font-family: 'Oswald', sans-serif;
+ text-transform: uppercase;
+}
+  margin: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  text-align: right;
+  background-color: #000000;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #3bd6bf;
+  color: black;
+}
+
+.topnav a.active {
+  /* background-color: #3bd6bf; */
+  color: white;
+}
